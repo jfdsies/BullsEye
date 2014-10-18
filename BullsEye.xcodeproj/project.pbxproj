@@ -77,11 +77,9 @@
 		9766C88D19F2396A0041468F /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
-				9766C89019F2396A0041468F /* AppDelegate.swift */,
 				9766C89219F2396A0041468F /* ViewController.swift */,
 				9766C89419F2396A0041468F /* Main.storyboard */,
 				9766C89719F2396A0041468F /* Images.xcassets */,
-				9766C89919F2396A0041468F /* LaunchScreen.xib */,
 				9766C88E19F2396A0041468F /* Supporting Files */,
 			);
 			path = BullsEye;
@@ -90,6 +88,8 @@
 		9766C88E19F2396A0041468F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9766C89919F2396A0041468F /* LaunchScreen.xib */,
+				9766C89019F2396A0041468F /* AppDelegate.swift */,
 				9766C88F19F2396A0041468F /* Info.plist */,
 			);
 			name = "Supporting Files";
