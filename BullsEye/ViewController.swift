@@ -17,8 +17,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var targetLabel: UILabel!
     
     @IBAction func showAlert() {
+        var difference: Int = abs(currentValue - targetValue)
+        
         let message = "The vlaue of the slider is: \(currentValue)" +
-                      "\nThe target value is: \(targetValue)"
+                      "\nThe target value is: \(targetValue)" +
+                      "\nThe difference is \(difference)"
         
         let alert = UIAlertController(title: "Hello, World", message: message, preferredStyle: UIAlertControllerStyle.Alert)
         
